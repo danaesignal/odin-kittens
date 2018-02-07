@@ -1,0 +1,8 @@
+<p>
+  Name: <%= kitten.name %></br>
+  Age: <%= kitten.age %></br>
+  Cuteness: <%= kitten.cuteness %></br>
+  Softness: <%= kitten.softness %></br>
+  <%= link_to "Edit Kitten", edit_kitten_path(kitten) %></br>
+  <%= link_to "Delete Kitten (don't do it!)", kitten_path(kitten), method: :delete %>
+</p>
